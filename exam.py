@@ -42,4 +42,4 @@ g=Graph(sub)
 for _ in range(int(input("Enter the number of edges: "))):
     e = input("Enter edge (subject1 subject2): ").split()
     g.add_edge(e[0], e[1])
-print(f"\nMinimum time slots needed: {g.timeslots()}")
+print(f"\nMinimum time slots needed: {g.get_minimum_time_slots()}")
