@@ -37,7 +37,7 @@ def find_optimal_route(graph, start, destination):
     route.append(start)
     route.reverse()
     return route
-    graph={}
+graph={}
 num_nodes=int(input("enter the number of nodes in graph:"))
 for i in range(num_nodes):
     node=input(f"enter node {i+1}:")
@@ -47,7 +47,7 @@ for i in range(num_nodes):
         neighbor, weight=input(f"enter the neighbor {j+1} and its weight").split()
         neighbors[neighbor]=int(weight)
     graph[node]=neighbors    
-    start_location=input("enter the start location:")
+start_location=input("enter the start location:")
 destination_location=input("enter the destination location:")
 optimal_route=find_optimal_route(graph,start_location,destination_location)
 if optimal_route is None:
