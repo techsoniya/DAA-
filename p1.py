@@ -6,3 +6,11 @@ print("Access first three items individually")
 print(array_num[0])
 print(array_num[1])
 print(array_num[2])
+
+# array=[1,3,4,5,6,7]
+# for i in array:
+#   print(array[0])
+#   print(array[1])
+#   print(array[2])
+#   print(array[3])
+#   break
